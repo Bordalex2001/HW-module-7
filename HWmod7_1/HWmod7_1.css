@@ -11,8 +11,8 @@
     border-radius: 50%;
 }
 .center{
-    width: 10px;
-    height: 10px;
+    width: 16.6px;
+    height: 16.6px;
     background: #b21414;
 }
 .clock, .center{
@@ -22,10 +22,10 @@
     left: 50%;
     bottom: 50%;
     position: absolute;
+    transform: translate(-50%, 50%);
 }
 .hours, .minutes, .seconds{
     background: #ffe139;
-    transform: translate(-50%);
     transform-origin: 50% 100%;
 }
 .hours, .minutes{
