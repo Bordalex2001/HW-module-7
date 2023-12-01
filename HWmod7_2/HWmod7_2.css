@@ -9,6 +9,7 @@
     background: #dedede;
     border: 3px solid #504d4d;
     position: relative;
+    overflow: hidden;
 }
 .square{
     width: 50px;
@@ -21,11 +22,7 @@
     0%{
         left: 0;
     }
-    80%{
-        opacity: 1;
-    }
     100%{
         left: 250px;
-        opacity: 0;
     }
 }
